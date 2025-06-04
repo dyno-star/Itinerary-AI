@@ -5,3 +5,4 @@ import datetime
 
 OPENWEATHERMAP_API_KEY = ""
 GOOGLE_PLACES = ""
+api_key = ""
