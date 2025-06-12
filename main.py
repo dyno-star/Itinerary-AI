@@ -18,4 +18,4 @@ destination = input("Destination: ")
 dates = input("Travel dates (e.g., 2025 - 04 - 14): ")
 activities = input("Preferred activities (tourism, art, beaches): ")
 budget = input("Budget per day: ")
-
+client = OpenAI(api_key= openai_api_key) 
