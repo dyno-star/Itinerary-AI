@@ -19,3 +19,7 @@ dates = input("Travel dates (e.g., 2025 - 04 - 14): ")
 activities = input("Preferred activities (tourism, art, beaches): ")
 budget = input("Budget per day: ")
 client = OpenAI(api_key= openai_api_key) 
+
+def get_weather_data(city):
+    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={weather_api_key}&units=metric"
+
