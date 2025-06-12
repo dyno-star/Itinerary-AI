@@ -11,5 +11,6 @@ weather_api_key = os.getenv("OPENWEATHERMAP_API_KEY")
 google_api_key = os.getenv("GOOGLE_PLACES")
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
-print(weather_api_key, google_api_key, openai_api_key)
+
+print("Please enter your travel preferences below: \n")
 
