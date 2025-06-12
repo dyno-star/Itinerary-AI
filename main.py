@@ -23,3 +23,5 @@ client = OpenAI(api_key= openai_api_key)
 def get_weather_data(city):
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={weather_api_key}&units=metric"
 
+    response = requests.get(url)
+    
