@@ -14,3 +14,8 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 
 print("Please enter your travel preferences below: \n")
 
+destination = input("Destination: ")
+dates = input("Travel dates (e.g., 2025 - 04 - 14): ")
+activities = input("Preferred activities (tourism, art, beaches): ")
+budget = input("Budget per day: ")
+
